@@ -55,6 +55,8 @@ edges_star2 = [star2 for star1, star2 in edges]
 # We will center the chart on the comet's middle position.
 
 center = earth.at(t).observe(comet)
+print(center)
+exit()
 projection = build_stereographic_projection(center)
 field_of_view_degrees = 45.0
 limiting_magnitude = 7.0
